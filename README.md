@@ -21,7 +21,7 @@ The `scripts/` directory contains Julia scripts to reproduce data used in the pa
 - **`narma_r2_map.jl`** : Sweep both $\sigma_{\text{in}}$ and $\rho$; save 2-D $r^2$ maps.
 - **`delay_r2.jl`** : Evaluate delay task performance; save $r^2$ vs $\sigma_{\text{in}}$.
 - **`delay_r2_map.jl`** : Sweep both $\sigma_{\text{in}}$ and $\rho$; save 2-D $r^2$ maps.
-- **`lorenz_r2.jl`** — Generate a noisy Lorenz time series and evaluate one-step prediction $x(t)\!\to\!x(t+1)$; save $r^2$ vs $\sigma_{\text{in}}$.
+- **`lorenz_r2.jl`** : Generate a noisy Lorenz time series and evaluate one-step prediction $x(t)\!\to\!x(t+1)$; save $r^2$ vs $\sigma_{\text{in}}$.
 - **`lorenz_r2_map.jl`** : Sweep both $\sigma_{\text{in}}$ and $\rho$; save 2-D $r^2$ maps.
 
 ----
